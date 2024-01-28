@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    background-color: white;
+    border-width: 2px;
+    font-size: 30;
+}
+h3{
+    font-size: 40;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.topics table{
+    table-layout: fixed;
+    box-sizing: border-box;
+    font-size: 20;
+    margin-left: 20px;
+}
+.section button{
+    margin-left: 1700px;
+    padding: 8px;
+    font-style: italic;
+    border-radius: 15px;
+}
+.section button:hover{
+    transition: 1ms;
+    background-color: grey;
+    transition-property: inherit;
+}
+.topics thead th:nth-child(3){
+    width: 10%;
+    word-spacing: 2px;
+}
+.topics tbody td{
+    padding: 10px;
+    font-size: 10;
+}
+.topics tbody button{
+    background-color: white;
+    border-radius: 15px;
+}
+.topics tbody button:hover{
+    transform-style:preserve-3d;
+    transition: 2ms
+    cursor:auto;
+    background-color: grey;
+}
+
+}

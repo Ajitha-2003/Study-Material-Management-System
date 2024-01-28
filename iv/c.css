@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu h3{
+    font-size: 70;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+.section button{
+    padding:5px;
+ }
+.menu button{
+    word-spacing: 3px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.menu button:hover{
+    transform-style:preserve-3d;
+    transition: 2ms
+    cursor:auto;
+    background-color: whitesmoke;
+}
+.plain p{
+    background-position: 20px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    font-size: 30;
+}

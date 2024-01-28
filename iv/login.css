@@ -1,0 +1,83 @@
+*{
+   font-family: 'Josefin Sans', sans-serif;;
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: white;
+    color: white;
+}
+img{
+    height: 20%;
+    width: 800px;
+    padding-left: 60px;
+}
+body{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    border-style: groove;
+    border-color:black ;
+    border-width: 5px;
+    padding: 1px;
+}
+h1{
+    font-size: 60;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c0313;
+}
+.User h4{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30; ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1c0313
+}
+.Details h4{
+    margin-bottom: 15px;
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c0313;
+}
+.login h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1c0313
+}
+.login a{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1c0313
+}
+.submit button{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 30;
+    margin-left: 400px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.button:hover{
+    transition: 1s;
+    background-color:#1c0313;
+    color: white;
+}
